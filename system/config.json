@@ -1,0 +1,13 @@
+{
+    "mqtt": {
+        "broker_ip":"argus-pump.local",
+        "broker_port": 8883,
+        "client_id": "backend_docker_dev"
+    },
+    "web": {
+        "port": 8080
+    },
+    "database": {
+        "path": "historico_clinico.db"
+    }
+}

@@ -1,0 +1,4 @@
+build/
+.git/
+.vscode/
+historico_clinico.db

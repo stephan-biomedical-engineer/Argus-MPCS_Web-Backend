@@ -1,0 +1,19 @@
+# Binários e pastas de build
+build/
+bin/
+obj/
+
+# Banco de dados local (dados sensíveis/temporários)
+system/*.db
+*.db-journal
+
+# Certificados (CUIDADO: Se forem certificados reais, não suba. 
+# Se forem apenas para dev, pode subir, mas o ideal é ignorar)
+# certs/*.key
+# certs/*.pem
+
+# Logs e arquivos do SO
+*.log
+.vscode/
+.idea/
+.DS_Store

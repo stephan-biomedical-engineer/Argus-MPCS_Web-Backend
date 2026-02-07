@@ -1,0 +1,26 @@
+services:
+  server:
+    container_name: argus_web_backend
+
+    build: .
+    image: infusion-backend:latest
+
+
+    network_mode: "host"
+    
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+
+    volumes:
+      - ~/.ssh:/root/.ssh:ro
+      - ./system/config.json:/app/build/config.json
+      - ./system/infusion.db:/app/build/infusion.db
+      - ./certs:/app/certs:ro
+      - ./certs:/app/build/certs:ro
+      - /var/run/avahi-daemon/socket:/var/run/avahi-daemon/socket
+ 
+# CMD to enable server      >   docker compose up -d 
+# CMD to stop server        >   docker compose down
+# CMD to check the server   >   docker ps
+# CMD to compile Dockerfile >   docker compose build

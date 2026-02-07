@@ -1,0 +1,1 @@
+:root{--primary: #0288d1;--success: #2e7d32;--danger: #c62828;--bg: #eceff1;--text: #333}body{font-family:Segoe UI,Roboto,Helvetica,Arial,sans-serif;background-color:var(--bg);color:var(--text);margin:0;padding:0;box-sizing:border-box}input,button{font-family:inherit}h1,h2,h3{margin-top:0}.card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 6px #0000001a}
