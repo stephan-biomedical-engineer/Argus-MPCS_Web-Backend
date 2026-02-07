@@ -17,3 +17,6 @@ system/*.db
 .vscode/
 .idea/
 .DS_Store
+
+
+certs/
